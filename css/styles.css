@@ -2,7 +2,6 @@
   --header-list-item: #2e2f42;
   --header-link: #434455;
   --hero-top-title: #ffffff;
-  --customers-link: #8e8f99;
 
 }
 
@@ -119,7 +118,6 @@ img {
 .header-navig {
   list-style: none;
   display: flex;
-  gap: 40px;
 }
 
 .header-link {
@@ -437,7 +435,6 @@ img {
 }
 
 .customers-link {
-  list-style: none;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -456,9 +453,10 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-  color:  #404BBF;
   border-color: #404BBF;
+  color:  #404BBF;
 }
+
 
 .section-ul {
   display: flex;
